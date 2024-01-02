@@ -7,7 +7,7 @@
     font-size: 4rem;
   }
   /* contact-btn*/
-  .contact a {
+  #contact a {
     display: block;
     margin-top: 10px;
   }
@@ -31,13 +31,13 @@
   }
   /* contact-btn*/
 
-  .contact .container {
+  #contact .container {
     text-align: center;
     display: flex;
     flex-direction: column;
   }
 
-  .contact .btn-contact a {
+  #contact .btn-contact a {
     display: block;
     margin-top: 10px;
   }
