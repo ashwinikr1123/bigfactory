@@ -1,23 +1,41 @@
-@media only screen and (max-width: 1368px) {
-  .container {
+@media only screen and (max-width: 1180px) {
+  .showcase .container {
     padding: 10% 14%;
   }
 
-  .container h1 {
+  .showcase .container h1 {
     font-size: 4rem;
   }
+
   /* contact-btn*/
-  #contact a {
+  .contact a {
     display: block;
     margin-top: 10px;
   }
+
+  /* image-showcase*/
+  .blog-area .container {
+    padding: 10% 14%;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'card-1 card-2'
+      'card-3 card-4'
+      'card-5 card-6';
+  }
+  .blog-area .container .cards h4,
+  p,
+  a {
+    margin-bottom: 15px;
+  }
 }
 @media only screen and (max-width: 768px) {
-  .container {
+  .showcase .container {
     padding: 8% 10%;
   }
 
-  .container h1 {
+  .showcase .container h1 {
     font-size: 5rem;
   }
 
@@ -31,14 +49,31 @@
   }
   /* contact-btn*/
 
-  #contact .container {
+  .contact .container {
     text-align: center;
     display: flex;
     flex-direction: column;
   }
-
-  #contact .btn-contact a {
+  .contact .container .text {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .contact .btn-contact a {
     display: block;
     margin-top: 10px;
+  }
+  /* image-showcase*/
+  .blog-area .container {
+    padding: 8% 10%;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'card-1 '
+      'card-2 '
+      'card-3 '
+      'card-4 '
+      'card-5 '
+      'card-6 ';
   }
 }
