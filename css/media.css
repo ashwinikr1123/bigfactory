@@ -1,1 +1,27 @@
+@media only screen and (max-width: 1368px) {
+  .container {
+    padding: 10% 14%; /* Adjust the padding as needed for smaller screens */
+  }
 
+  .container h1 {
+    font-size: 4rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 8% 10%;
+  }
+
+  .container h1 {
+    font-size: 5rem;
+  }
+
+  .container .btn a {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .container .btn .bottom-end {
+    margin-top: 10px;
+  }
+}
