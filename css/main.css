@@ -11,6 +11,9 @@ body {
 a {
   color: #000;
   text-decoration: none;
+  text-align: center;
+  padding: 10px 22px;
+  font-size: 1.2rem;
   cursor: pointer;
 }
 .yellow {
@@ -34,6 +37,7 @@ a {
   background-color: #d8d2d200;
 }
 .container {
+  margin: 0 auto;
   padding: 8% 25%;
   font-size: 1.5rem;
   color: #fff;
@@ -56,12 +60,41 @@ a {
 .container .btn a {
   margin-top: 30px;
   display: inline-block;
-  padding: 10px 22px;
+
   background-color: yellow;
-  font-size: 1.2rem;
+
   font-weight: 300;
 }
 
 .container .btn .bottom-end {
   background-color: #fff;
+}
+/* contact us*/
+.contact .container {
+  padding: 4% 10%;
+  background-color: yellow;
+  color: #000;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .container .text {
+  margin-right: 20px;
+  text-align: left;
+}
+.contact a {
+  display: inline-block;
+  font-size: 1rem;
+  margin-right: 10px;
+  padding: 8px 18px;
+}
+.contact .bg-dark {
+  background-color: #000;
+  color: #fff;
+}
+.contact .bg-light {
+  background-color: #fff;
+  color: #222;
 }
