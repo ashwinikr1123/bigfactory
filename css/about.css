@@ -1,0 +1,70 @@
+.about-area {
+  margin: 0 auto;
+  padding: 2% 10%;
+  color: #111;
+  line-height: 1.5;
+  background-color: #eef;
+}
+.about-area .about-text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.about-text p {
+  padding: 0 15%;
+}
+.about-area .about-grid-area {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-areas: 'about mission goals';
+  column-gap: 1.5rem;
+}
+.about {
+  grid-area: about;
+}
+.mission {
+  grid-area: mission;
+}
+.goals {
+  grid-area: goals;
+}
+.about-card {
+  margin: 8px;
+  font-size: 14px;
+}
+.about-second-card {
+  margin: 15px;
+  font-size: 14px;
+}
+.about-area h2,
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 9px;
+  color: #2b2c2d;
+}
+
+.column-two {
+  background: url('../images/workers2.jpg') center center/cover;
+}
+
+@media only screen and (max-width: 1180px) {
+  .about-area {
+    padding: 2% 14%;
+  }
+  .about-area .about-grid-area {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      'about '
+      'mission '
+      'goals ';
+  }
+  .about-second-card {
+    margin: 10px;
+    padding: 8px 0;
+  }
+  .column-two {
+    margin: 20px 0;
+  }
+}
+/* @media only screen and (max-width: 768) {
+} */
