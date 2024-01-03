@@ -23,6 +23,24 @@
   height: 100%;
   object-fit: cover;
 }
+/*logo area*/
+.logo-area {
+  background-color: #eef;
+}
+.logo-container {
+  padding: 4% 10%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.8rem;
+  place-items: center;
+}
+.logo-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* slides and logo media query*/
 @media only screen and (max-width: 768px) {
   .sliding-cards-area {
     height: 100%;
