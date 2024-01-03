@@ -66,6 +66,7 @@
   font-weight: 300;
   padding-top: 30px;
 }
+
 .testimonial-container {
   padding: 6% 10%;
   display: flex;
@@ -109,8 +110,8 @@
 }
 .last-showcase .last-showcase-container {
   color: #fff;
-  margin: auto;
-  padding: 20% 10%;
+  /* margin: auto; */
+  padding: 10% 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,6 +125,13 @@
 .last-showcase .last-showcase-container p {
   padding: 20px 60px;
   font-size: 1.3rem;
+}
+.last-showcase .last-showcase-container h2 > .orange {
+  color: orangered;
+  font-size: 4.2rem;
+}
+.last-showcase .last-showcase-container p > .orange {
+  color: orangered;
 }
 .last-showcase .last-showcase-container .sign {
   font-family: 'Ruthie', cursive;
@@ -177,6 +185,20 @@
   .testimonial {
     margin: 35px;
   }
+  /*last-showcase-area */
+  .last-showcase .last-showcase-container {
+    padding: 18% 10%;
+  }
+  .last-showcase .last-showcase-container h2 {
+    font-size: 2rem;
+  }
+  .last-showcase .last-showcase-container p {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  .last-showcase .last-showcase-container .sign {
+    font-size: 1.5rem;
+  }
 }
 
 /*for tabs*/
@@ -196,5 +218,19 @@
   }
   .testimonial {
     margin: 35px;
+  }
+  /*last-showcase-area */
+  .last-showcase .last-showcase-container {
+    padding: 15% 10%;
+  }
+  .last-showcase .last-showcase-container h2 {
+    font-size: 3rem;
+  }
+  .last-showcase .last-showcase-container p {
+    padding: 10px 40px;
+    font-size: 14px;
+  }
+  .last-showcase .last-showcase-container .sign {
+    font-size: 1.5rem;
   }
 }
