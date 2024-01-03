@@ -4,7 +4,14 @@
   opacity: 0.85;
 }
 .sliding-cards {
-  padding: 10% 10%;
+  padding: 4% 10%;
+}
+.sliding-cards h2 {
+  font-weight: 300;
+  font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
 }
 .sliding-container {
   display: grid;
@@ -22,6 +29,9 @@
   }
   .sliding-cards {
     padding: 10% 10%;
+  }
+  .sliding-cards h2 {
+    font-size: 2.5rem;
   }
   .sliding-container {
     grid-template-columns: 1fr;
