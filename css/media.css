@@ -29,6 +29,9 @@
   a {
     margin-bottom: 15px;
   }
+  .blog-area .container .cards a {
+    padding-top: 10px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .showcase .container {
