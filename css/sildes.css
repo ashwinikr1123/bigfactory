@@ -39,9 +39,26 @@
   height: auto;
   object-fit: cover;
 }
+/*number area*/
+
+.number-area {
+  padding: 6% 10%;
+  background-color: yellow;
+  color: #101;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  line-height: 2rem;
+}
+.number-area h2 {
+  font-weight: 400;
+}
 
 /* slides and logo media query*/
 @media only screen and (max-width: 768px) {
+  /*sliding-image-area*/
   .sliding-cards-area {
     height: 100%;
   }
@@ -68,6 +85,13 @@
     padding: 10% 10%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+  }
+  /*numnber area*/
+  .number-area {
+    flex-direction: column;
+  }
+  .num {
+    padding: 25px;
   }
 }
 @media only screen and (max-width: 1180px) {
