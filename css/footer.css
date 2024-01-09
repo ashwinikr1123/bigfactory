@@ -17,18 +17,43 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 10px;
+  gap: 50px;
 }
 .column {
+  flex: 1;
   color: #585656;
   font-weight: 100;
   width: 25%;
   height: auto;
   line-height: 2rem;
 }
-.column3 {
-  text-align: center;
+.column1,
+.column4 {
+  flex: 1.5;
 }
+.column1 input {
+  width: 100%;
+  border: #ccc 1px solid;
+  padding: 10px;
+  margin: 25px 0;
+}
+.column1 a {
+  background-color: rgb(255, 255, 0);
+  color: #222;
+  display: block;
+  font-weight: 300;
+  padding: 5px;
+  width: 50%;
+  margin-bottom: 22px;
+}
+.column1 i {
+  font-size: 1.2rem;
+
+  padding: 10px;
+  color: #7c7c7c;
+  font-weight: 100;
+}
+
 .column h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
